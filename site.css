@@ -1,0 +1,86 @@
+@keyframes anima {
+    from {
+        transform: translateX(-300px); 
+    } 
+    to {
+        transform: translateX(0px);
+    }
+} 
+.t1 {
+    background-color: aqua; 
+    width: 3000px; 
+    height: 4000px; 
+} 
+.a1 {
+    animation-name: anima; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
+    opacity: 1; 
+    color: black; 
+    transition: 2s; 
+    font-size: 150px; 
+} 
+.a1:hover {
+    color: blue; 
+} 
+.a2 {
+    animation-name: anima; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
+    opacity: 0.7; 
+    font-size: 150px; 
+    transition: 2s; 
+    color: black; 
+} 
+.a2:hover {
+    color: blue; 
+} 
+.a3 {
+    animation-name: anima; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
+    opacity: 0.7; 
+    color: black; 
+    transition: 2s; 
+    font-size: 150px; 
+}  
+.a3:hover {
+    color: blue; 
+}
+.nappi {
+    border: none; 
+    border-radius: 8px; 
+    font-size: 150px; 
+    animation-name: anima;
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
+    transition: 2s; 
+    background-color: red;  
+} 
+.nappi:hover {
+    background-color: blue; 
+} 
+.link {
+    color: black; 
+} 
+.nappi2 {
+    animation-name: anima; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
+    background-color: red; 
+    transition: 2s; 
+    font-size: 150px; 
+} 
+.nappi2:hover {
+    background-color: blue; 
+} 
+.link2 {
+    color: black; 
+} 
+.kuva {
+    animation-name: anima; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1;
+    height: 500px; 
+    width: 500px; 
+}

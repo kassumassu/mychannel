@@ -1,0 +1,24 @@
+@keyframes animat {
+    from {
+        transform: translateX(-300px);
+    } 
+    to {
+        transform: translateX(0px);
+    }
+} 
+.t2 {
+    background-color: aqua; 
+    width: 3000px; 
+    height: 4000px; 
+}  
+.t3 {
+    animation-name: animat; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
+    color: black; 
+    transition: 2s; 
+    font-size: 150px; 
+} 
+.t3:hover {
+    color: blue; 
+}
